@@ -1,0 +1,23 @@
+/*block level element*/
+div{
+    border-right: solid;
+    border-color: red;
+    border-radius:10px;
+}
+/*inline element*/
+span{
+   /* border-style: solid;
+    border-color:chartreuse;8*/
+    /*shorthand structure*/
+    border: 5px solid  violet;
+    border-radius: 5px;
+    border-bottom:4px solid green;
+       padding-right: 40px;
+       padding-bottom: 30px;
+       padding-top: 20px;
+       /*top right bottom left*/
+      /* padding :20px 40px 60px,80px;*/
+      /*margin:40px;*/
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
