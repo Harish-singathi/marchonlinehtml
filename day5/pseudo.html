@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        div{
+            background-color: aqua;
+
+        }
+        div::first-letter
+        {
+            font-size: 40px;
+        }
+        p{
+            background-color: blue;
+            height:100px;
+            width:100px;
+        }
+        p:hover
+        {
+           background-color: brown; 
+        }
+
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Itaque dolorum dolorem ratione ea? Quos exercitationem quisquam voluptas esse
+          laboriosam corporis similique adipisci natus sint. Inventore necessitatibus au
+         at placeat rerum?</div>
+         <p>harish varma</p>
+    
+</body>
+</html>
+<!--pseudo class:based on state/specific state
+                 :indacated with (:)
+                 :whole part
+       ex:hover,focus,active,first child,last child,link; 
+
+pseudo element:specific part of element
+               :indicated with (::)
+               :part of an element-->    
