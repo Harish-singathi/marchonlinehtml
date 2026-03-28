@@ -1,0 +1,15 @@
+git --it is a version control system ,which helps to save and track the code
+    --it is a software present in our system
+      
+
+      git hub--it is a cloud platform to perform git operations
+
+
+
+      command line
+      1.git init--for intilization --one time
+      2.git add filename/foldername/path/.(for all files)--adding
+      3.git commit -m "delivery msg"
+      4.git remote add origin githublink---one time--providing path
+      5.git push origin branchname---pushing
+      6.git status ----checking status

@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+     box-sizing:border-box;
+     /* box-sizing-that controls how the width and height of an element should be calculates
+              default:context-box
+              width=100
+              padding=20px;
+              border=4px;
+              context-box=width+padding-right+padding-left+border-right+border-left
+              100+20+20+4+4=148;
+              border-box=100;
+     */
+}
+#div
+{
+    border:1px solid black;
+    margin:10px;
+}
+#div2
+{
+    border:4px solid black;
+    height:40px;
+    width:100px;
+    padding:2px;
+}
+.parent
+{
+    background-color: blue;
+}
+.child{
+    border:1px solid red;
+}
+/* descedent selector--which styles both direct and indirect child*/
+/*.parent .child{
+    color:beige;
+}*/
+/*child selector--which styles only direct child*/
+.parent>.child
+{
+    color: aliceblue;
+}
+/*adjacent sibling selector*/
+/*.d1 +p{
+    background-color: red;
+}*/
+/*general siblings-selects all siblings /adjacent elements*/
+.d1~p{
+    background-color: blue;
+}
+/*attribute selector*/
+input[type="number"]{
+    background-color: aqua;
+}
+/*
+types of selectors
+id--#
+class--.
+element--tag name
+universal --*
+grouping---s1,s2,s3
+descedent---p c---all childs
+child---p>c---only direct child
+adjacent sibling--brother+sister--->next sister
+general sibling--brother~sister--->all sister
+*/
