@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="" target="">
+        <fieldset>
+            <legend>Basic Info:</legend>
+            <label>UserName:</label>
+            <input type="text" name="username" id="username"><br><br>
+             <label>fatherName:</label>
+            <input type="text" name="fathername" id="fathername"><br><br>
+            <label>MotherName:</label>
+            <input type="text" name="mothername" id="mothername"><br><br>
+            <label>Date Of Birth:</label>
+            <input type="date" name="date of birth" id="date of birth"><br><br>
+            <label>Age:</label>
+            <input type="number" name="age" id="age" min="18" max="25"><br><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="gender" value="male">Male
+             <input type="radio" name="gender" id="gender" value="female">FeMale
+              <input type="radio" name="gender" id="gender" value="Othres">Others
+        
+        
+        
+        </fieldset>
+        
+    
+                <fieldset>
+            <legend>contact Info:</legend>
+            <label>
+                Profile Photo
+            </label>
+            <input type="file " name="photo" id="photo" accept="image/*"><br><br>
+            <label>
+                Email:
+            </label>
+            <input type="email" name="email" id="email"><br><br>
+        
+         <label>
+                phone:
+            </label>
+            <input type="tel" name="phone" id="phone"><br><br>
+             <label>
+                Linked In:
+            </label>
+            <input type="Url" name="Linkedin" id="linkedin"><br><br>
+            <label>Address</label>
+            <textarea name="address" id="address" rows="5" col="20"></textarea>
+        
+        </fieldset>
+        <fieldset>
+            <legend>Hobbies & Favourites</legend>
+            <label>Favourite Language</label>
+            <input type="checkbox" name="lang" id="lang" value="java">java
+                <input type="checkbox" name="lang" id="lang" value="python">Python
+                    <input type="checkbox" name="lang" id="lang" value="mysql">MYSQL
+                    <br><br>
+                    <label>Food</label>
+                    <select name="food" id="food">
+                        <option value="">---Select Food item</option>
+                        <optgroup label="tiffins">
+                    <option value="idly">Idly</option>
+                     <option value="Dosa">Dosa</option>
+                      <option value="puri">Puri</option>
+                      </optgroup>
+                      <optgroup label="NON_VEg">
+                        <option value="chicken biryani">Chicken Biryani</option>
+                         <option value=" prawnsbiryani">prawns Biryani</option>
+                        
+                      </optgroup>
+                      </select>
+                      <br><br>
+                      <label>pets</label>
+                      <input list="pets">
+                      <datalist id="pets">
+                        <option value="dog"></option>
+                         <option value="cat">
+                          <option value="cow">
+                      </datalist>
+
+
+        </fieldset>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+</body>
+<!--select--it wont support custome input
+    -dropdown
+  datalist---it will support custome input
+        ->inputs+suggestions+dropdown   -->
+</html>
