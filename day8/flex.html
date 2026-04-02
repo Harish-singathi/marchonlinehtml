@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .parent
+        {
+            border:1px solid black;
+            height:600px;
+              display:flex;
+              flex-direction: row-reverse;
+              gap:5px;
+              
+              align-items: end;
+              justify-content:flex-start;
+             /* flex-wrap:wrap;
+              align-content: space-between;
+              gap:30px;*/
+        }
+        .item
+        {
+             height:100px;
+             width:100px;
+             border:1px soild black;
+             font-size: 50px;
+        }
+        .one
+        {
+            background-color: pink;
+        }
+        .two
+        {
+            background-color: skyblue;
+        }
+        .three
+        {
+            background-color: red;
+        }
+        .four
+        {
+            background-color: green;
+        }
+        #special
+        {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="item one">1</div>
+        <div class="item two ">2</div>
+        <div class="item three" id="special">3</div>
+        <div class="item four">4</div>
+        
+        <div class="item one">1</div>
+        <div class="item two ">2</div>
+        <div class="item three" id="special">3</div>
+        <div class="item four">4</div>
+    </div>
+</body>
+
+</html>
+<!-- flex model is a one dimensional layout(row/column)
+       flex container--parent
+       flex item---child
+         
+       parent -- display:flex;
+       default direction:row;
+       change direction:flex-direction
+         
+       main axis:direction of flex items--justify content
+       cross axis:perpendicular to main--align items
+       
+       direction:row
+       main axis-x-axis;
+       cross axis-y-axis
+                       
+       direction:coloumn;
+       maiin axis-y-axis;
+       cross axis-x-axis;-->
