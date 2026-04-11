@@ -1,0 +1,126 @@
+JavaScript:
+           -It is a Scripting language
+           -Used to create dynamic(behaviour/functionalities) and interactive webpages/applications
+           -It is used as client(UI) and server side(Node Js)language
+           -It is a Synchornous language(it executes line by line)
+           -It is case sensitive
+
+  Javascript is used in:
+                      React Js--Library
+                      Node Js--server
+                       Angular Js-- Frame work
+
+ we can add js in our webpage:
+                      1.Inline Js:
+                      2.Internal Js:
+                      3.External js:
+Tokens:
+--------
+        building blocks of a program
+              1.keywords
+              2.identifiers
+              3.values/data/literals
+              4.variables
+              5.operators
+              6.separators
+
+variable:
+---------
+It is a container used to store a data values
+ 
+   Declaration of variable:(providing names)
+   ------------------------
+                            var,let,const
+-------------------------------------------------------------------------------------------------------------------------------
+ properties               var                             let                                     const
+-----------------------------------------------------------------------------------------------------------------------------
+scope                      function                       block                                   block
+
+re-declare                  yes                           no                                         no
+
+re-assign                   yes                           yes                                        no
+
+declaring without
+assigning                  undefined                      undefined                                  error
+
+hosting                     yes                              yes                                      no
+ 
+ assigning                 optional                        optional                                mandatory
+ ------------------------------------------------------------------------------------------------------------------------------
+  Assigning/intializing variable:
+      ------------------------------
+                       let a;
+                       a=10;
+     re-assigning/re-initializing the variable:
+     -----------------------------------------
+                        let a;
+                        a=10;//assigning
+                        a='harish' //re-assigning
+    hosting the variable
+    ---------------------
+     It is a behaviour where  variable and function declaration are moved to the top of the scope before execution
+                      int a;
+                      console.log(a);
+                      a=10;
+
+       functions:
+      ----------
+                 it is a block of code{}
+                 creating a function once and use/calling function many times
+                 avoid code repetation
+                 improves readability
+                 easy to maintain and debug
+                 code reusability
+    Types:
+          -based on arguments/parameters:
+        ---------------------------------
+          1.parameterized functions:
+          -------------------------
+          Syntax:
+                   function functionname(args1,args2..)
+                   {
+                    //code
+                   }
+            
+            --to print dynamic output based on inputs:
+    2.Non-parameterized functions:
+    ------------------------------
+    Syntax:
+              function functionname()
+              {
+
+              }
+              -to execute the same code everytime.
+    1.function declaration:
+    -----------------------
+    syntax:
+                function functionname()
+                {
+                    //code
+                } 
+                functionname()//caller
+                Note:without calling the function the code will not execute:   
+    2.function expression:
+    ---------------------
+    Syntax:
+             let variable/functionreference=function()
+             {
+                //code
+             } 
+             functionreference();//caller  
+   3.Arrow function
+   ----------------
+   Syntax:
+           let ref=()=>{
+
+           }  
+           ref();//caller
+ 4.Anonymous function:
+ ---------------------
+              a function without name,arrow function and function expression will act 
+              like a anonymous function.
+              Syntax:
+                      setTimeOut(()=>)
+                      {
+
+                      },timeout in sec);
